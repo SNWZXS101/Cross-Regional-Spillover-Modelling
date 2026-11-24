@@ -1,0 +1,13 @@
+{
+  "checkpoint_sha256": "4834abb193e042ec142db63e28388900cb1c5d554240b23b5695547b97805079",
+  "previous_validation_sha256": "454878a4835ec41c1c167b853e610b0a6136853c80f3c8f69a4abacea2e1e051",
+  "trainer_sha256": "1ee87b039565a1b22321ac5e90ef092156257d0abcddcf1fcddd4d65062cfe3a",
+  "continuation_sha256": "73f7cc67073cc6d549ad7536d5d01db748e2e2bd6e7f44ff38d73c2d739cf9e8",
+  "data_sha256": "1c1fd6336d755a267709104d90e87107a1e2fe0d329a50e0ce0402253ad96b72",
+  "max_iter": 150,
+  "max_eval": 187,
+  "optimizer": "new torch LBFGS, same optimizer settings, history not restored",
+  "changes": "one fixed L-BFGS restart from saved trained neural weights; no Adam, policy blind",
+  "after_failure": "stop if GD or GX independent R2 <= 0.98; no additional automatic budget",
+  "no_policy_results_seen": true
+}

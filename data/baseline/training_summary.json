@@ -1,0 +1,45 @@
+{
+  "beta_estimated": 0.09220819920301437,
+  "gamma_fixed": 0.14285714285714285,
+  "mu_fixed": 0.14285714285714285,
+  "training_minutes": 18.079370292027793,
+  "Differentiable_R2_GD": 0.9939890592272488,
+  "Differentiable_R2_GX": 0.9908618155505541,
+  "Independent_R2_GD": 0.9933928580934562,
+  "Independent_R2_GX": 0.9902814547130665,
+  "Independent_RMSE_GD": 2.6731496502648113,
+  "Independent_RMSE_GX": 4.840546167557675,
+  "score": 0.2983530405029483,
+  "boundary_fraction": 0.1774364406779661,
+  "roughness": 0.009495420897509863,
+  "final_seed": 31415,
+  "final_lr": 0.0012,
+  "final_cumulative_weight": 0.1,
+  "final_daily_weights": {
+    "raw": 0.25,
+    "sqrt": 0.4,
+    "log": 0.35
+  },
+  "bounds": {
+    "c": [
+      1.0,
+      16.0
+    ],
+    "q": [
+      0.0,
+      1.0
+    ],
+    "m": [
+      0.0,
+      0.2
+    ],
+    "d": [
+      0.0,
+      0.2
+    ],
+    "beta": [
+      0.005,
+      0.2
+    ]
+  }
+}

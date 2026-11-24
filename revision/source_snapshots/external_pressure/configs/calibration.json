@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "fraction": 0.1,
+  "nu_per_day": [
+    3.354740815350376e-08,
+    1.0736298509475937e-07
+  ],
+  "baseline_cumulative_all_infections": [
+    10054.420044331499,
+    12760.311695330873
+  ],
+  "baseline_integral_susceptibles_person_days": [
+    29970780449.938858,
+    11885205766.27832
+  ],
+  "calibrated_external_infections_on_original_S": [
+    1005.4420044331499,
+    1276.0311695330874
+  ],
+  "baseline_saved_14state_max_abs_difference": 0.00011684000492095947,
+  "independent_RK4_area_max_relative_difference": 1.6641870331252326e-13,
+  "independent_RK4_J_max_abs_difference": 2.9834754968760535e-06,
+  "integration": "days 0..236, daily rate interpolation, DOP853 rtol 1e-11 atol 1e-8 max_step 0.125, J and susceptible-person-days integrated as auxiliary states; RK4 dt 0.0125 and trapezoidal S-area cross-check"
+}

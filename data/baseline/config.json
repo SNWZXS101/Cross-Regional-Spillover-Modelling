@@ -1,0 +1,144 @@
+{
+  "data_file": "Data_all_sm.xlsx",
+  "gd_column": "GD",
+  "gx_column": "GX",
+  "N1_raw": 127000000.0,
+  "N2_raw": 50370000.0,
+  "Sq10_raw": 0.0,
+  "Sq20_raw": 4.0,
+  "I10_raw": 0.0,
+  "I20_raw": 1.0,
+  "Iq10_raw": 0.0,
+  "Iq20_raw": 0.0,
+  "R10_raw": 0.0,
+  "R20_raw": 0.0,
+  "gamma_fixed": 0.14285714285714285,
+  "mu_fixed": 0.14285714285714285,
+  "beta_bounds": [
+    0.005,
+    0.2
+  ],
+  "beta_init": 0.1,
+  "c1_bounds": [
+    1.0,
+    16.0
+  ],
+  "c2_bounds": [
+    1.0,
+    16.0
+  ],
+  "q1_bounds": [
+    0.0,
+    1.0
+  ],
+  "q2_bounds": [
+    0.0,
+    1.0
+  ],
+  "m1_bounds": [
+    0.0,
+    0.2
+  ],
+  "m2_bounds": [
+    0.0,
+    0.2
+  ],
+  "d1_bounds": [
+    0.0,
+    0.2
+  ],
+  "d2_bounds": [
+    0.0,
+    0.2
+  ],
+  "c_init": 4.0,
+  "q_init": 0.55,
+  "m_init": 0.02,
+  "d_init": 0.01,
+  "rate_hidden_layers": 3,
+  "rate_width": 48,
+  "fourier_periods_days": [
+    14.0,
+    28.0,
+    56.0,
+    112.0,
+    224.0
+  ],
+  "screen_ode_substeps_per_day": 1,
+  "ode_substeps_per_day": 1,
+  "validation_rk4_substeps_per_day": 20,
+  "count_scale_mode": "auto_cumulative",
+  "manual_count_scale": 1.0,
+  "w_daily_raw": 0.25,
+  "w_daily_sqrt": 0.4,
+  "w_daily_log": 0.35,
+  "w_cumulative": 0.1,
+  "w_rate_smoothness": 0.003,
+  "w_rate_saturation": 0.0003,
+  "saturation_logit_threshold": 3.5,
+  "w_beta_saturation": 1e-05,
+  "w_negative_state": 10.0,
+  "seed": 31415,
+  "adam_lr": 0.0012,
+  "adam_iterations": 1000,
+  "adam_print_every": 100,
+  "scheduler_step": 700,
+  "scheduler_gamma": 0.82,
+  "grad_clip_norm": 100.0,
+  "use_lbfgs": true,
+  "lbfgs_max_iter": 150,
+  "lbfgs_lr": 0.6,
+  "lbfgs_history_size": 75,
+  "lbfgs_tolerance_grad": 1e-09,
+  "lbfgs_tolerance_change": 1e-11,
+  "run_autotune": true,
+  "screen_adam_iterations": 600,
+  "screen_use_lbfgs": false,
+  "autotune_candidates": [
+    [
+      2026,
+      0.001,
+      0.0003,
+      0.0001,
+      0.0755,
+      0.05,
+      0.3,
+      0.4,
+      0.3
+    ],
+    [
+      6689,
+      0.0008,
+      0.001,
+      0.0003,
+      0.0755,
+      0.05,
+      0.25,
+      0.45,
+      0.3
+    ],
+    [
+      31415,
+      0.0012,
+      0.003,
+      0.0003,
+      0.1,
+      0.1,
+      0.25,
+      0.4,
+      0.35
+    ]
+  ],
+  "worst_region_score_weight": 0.75,
+  "boundary_score_weight": 0.25,
+  "roughness_score_weight": 0.02,
+  "boundary_fraction_threshold": 0.02,
+  "device": "auto",
+  "dtype": "float32",
+  "cpu_num_threads": 0,
+  "output_root": "Model4GDGXcq2x_v6_optimized01",
+  "case_name": "set1",
+  "COUNT_SCALE_used": 6016.857142857144,
+  "device_used": "cpu",
+  "dtype_used": "torch.float32"
+}

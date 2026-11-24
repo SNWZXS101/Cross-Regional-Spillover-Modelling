@@ -1,0 +1,14 @@
+{
+  "seed": 27182,
+  "seed_prespecified": true,
+  "training_data": "SOURCE_PROJECT/Data/input/Data_all_sm.xlsx",
+  "same_selected_configuration": 3,
+  "screen_iterations": 600,
+  "final_iterations": 1000,
+  "warm_start": "newly trained same-seed candidate #3 screen weights; fresh Adam state; never load old checkpoint",
+  "screen_updates": 601,
+  "final_updates": 1001,
+  "lbfgs_max_iter": 150,
+  "changes": "seed and output/data paths only; isolated single selected-configuration screening",
+  "intervention_outcomes_used_for_selection": false
+}

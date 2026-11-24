@@ -1,0 +1,55 @@
+solution,strategy,region,metric,value,day,date,resolution
+U01,NN,GD,unisolated_infectious_stock,545.47323713744004,24.950000000000003,2022-02-22,event-aligned ≤0.025 day
+U01,NN,GD,daily_reported_cases,168.95701086014151,43,2022-03-13,one-day interval beginning at day
+U01,NN,GD,daily_all_infections,176.47863032438818,43,2022-03-13,one-day interval beginning at day
+U01,NN,GX,unisolated_infectious_stock,462.06674662086704,167.02500000000001,2022-07-15,event-aligned ≤0.025 day
+U01,NN,GX,daily_reported_cases,248.62423993806399,175,2022-07-23,one-day interval beginning at day
+U01,NN,GX,daily_all_infections,252.26700696154239,175,2022-07-23,one-day interval beginning at day
+U01,NN,total,unisolated_infectious_stock,604.89558073851117,25.774999999999999,2022-02-23,event-aligned ≤0.025 day
+U01,NN,total,daily_reported_cases,265.4171035845884,175,2022-07-23,one-day interval beginning at day
+U01,NN,total,daily_all_infections,275.14104901841256,44,2022-03-14,one-day interval beginning at day
+U01,HH,GD,unisolated_infectious_stock,341.02411004054613,217.84999999999999,2022-09-03,event-aligned ≤0.025 day
+U01,HH,GD,daily_reported_cases,202.50484058201027,217,2022-09-03,one-day interval beginning at day
+U01,HH,GD,daily_all_infections,287.05343865675786,216,2022-09-02,one-day interval beginning at day
+U01,HH,GX,unisolated_infectious_stock,229.07790724641089,167.02500000000001,2022-07-15,event-aligned ≤0.025 day
+U01,HH,GX,daily_reported_cases,113.26335740196259,175,2022-07-23,one-day interval beginning at day
+U01,HH,GX,daily_all_infections,114.92288307502167,175,2022-07-23,one-day interval beginning at day
+U01,HH,total,unisolated_infectious_stock,358.31123797554079,217.90000000000001,2022-09-03,event-aligned ≤0.025 day
+U01,HH,total,daily_reported_cases,214.36644491630068,218,2022-09-04,one-day interval beginning at day
+U01,HH,total,daily_all_infections,294.65029465988664,216,2022-09-02,one-day interval beginning at day
+U01,LL,GD,unisolated_infectious_stock,267537.59787994216,217.22499999999999,2022-09-03,event-aligned ≤0.025 day
+U01,LL,GD,daily_reported_cases,156260.80951396073,216,2022-09-02,one-day interval beginning at day
+U01,LL,GD,daily_all_infections,229223.34440388088,215,2022-09-01,one-day interval beginning at day
+U01,LL,GX,unisolated_infectious_stock,136373.99997141265,166.95000000000002,2022-07-14,event-aligned ≤0.025 day
+U01,LL,GX,daily_reported_cases,115743.04793625536,221,2022-09-07,one-day interval beginning at day
+U01,LL,GX,daily_all_infections,115766.025228953,221,2022-09-07,one-day interval beginning at day
+U01,LL,total,unisolated_infectious_stock,318129.69598551566,217.5,2022-09-03,event-aligned ≤0.025 day
+U01,LL,total,daily_reported_cases,208077.18652164328,220,2022-09-06,one-day interval beginning at day
+U01,LL,total,daily_all_infections,245825.38313192548,215,2022-09-01,one-day interval beginning at day
+U29,NN,GD,unisolated_infectious_stock,1460.8287543259305,217.34999999999999,2022-09-03,event-aligned ≤0.025 day
+U29,NN,GD,daily_reported_cases,168.95637670298763,43,2022-03-13,one-day interval beginning at day
+U29,NN,GD,daily_all_infections,474.45754234246129,215,2022-09-01,one-day interval beginning at day
+U29,NN,GX,unisolated_infectious_stock,1236.648043289229,166.90000000000001,2022-07-14,event-aligned ≤0.025 day
+U29,NN,GX,daily_reported_cases,248.59792394237772,175,2022-07-23,one-day interval beginning at day
+U29,NN,GX,daily_all_infections,453.80152329254003,164,2022-07-12,one-day interval beginning at day
+U29,NN,total,unisolated_infectious_stock,1569.8992253496999,167.07500000000002,2022-07-15,event-aligned ≤0.025 day
+U29,NN,total,daily_reported_cases,265.38923252719451,175,2022-07-23,one-day interval beginning at day
+U29,NN,total,daily_all_infections,498.32371148944554,164,2022-07-12,one-day interval beginning at day
+U29,HH,GD,unisolated_infectious_stock,846.82878036130523,217.67500000000001,2022-09-03,event-aligned ≤0.025 day
+U29,HH,GD,daily_reported_cases,236.45222298522367,43,2022-03-13,one-day interval beginning at day
+U29,HH,GD,daily_all_infections,267.00352952365211,215,2022-09-01,one-day interval beginning at day
+U29,HH,GX,unisolated_infectious_stock,1923.8565399483821,167.375,2022-07-15,event-aligned ≤0.025 day
+U29,HH,GX,daily_reported_cases,442.94896868024171,175,2022-07-23,one-day interval beginning at day
+U29,HH,GX,daily_all_infections,622.97237416297867,164,2022-07-12,one-day interval beginning at day
+U29,HH,total,unisolated_infectious_stock,2095.2442416878562,167.35000000000002,2022-07-15,event-aligned ≤0.025 day
+U29,HH,total,daily_reported_cases,450.83169547163374,175,2022-07-23,one-day interval beginning at day
+U29,HH,total,daily_all_infections,653.7450690494079,164,2022-07-12,one-day interval beginning at day
+U29,LL,GD,unisolated_infectious_stock,13804.357085359665,217.34999999999999,2022-09-03,event-aligned ≤0.025 day
+U29,LL,GD,daily_reported_cases,790.51627346119665,216,2022-09-02,one-day interval beginning at day
+U29,LL,GD,daily_all_infections,4482.6966645681168,215,2022-09-01,one-day interval beginning at day
+U29,LL,GX,unisolated_infectious_stock,8646.1314718679823,166.90000000000001,2022-07-14,event-aligned ≤0.025 day
+U29,LL,GX,daily_reported_cases,1722.8619326608168,175,2022-07-23,one-day interval beginning at day
+U29,LL,GX,daily_all_infections,3178.2951069106784,164,2022-07-12,one-day interval beginning at day
+U29,LL,total,unisolated_infectious_stock,14515.95200092642,217.67500000000001,2022-09-03,event-aligned ≤0.025 day
+U29,LL,total,daily_reported_cases,1829.0705515271184,175,2022-07-23,one-day interval beginning at day
+U29,LL,total,daily_all_infections,4563.8361793687218,215,2022-09-01,one-day interval beginning at day

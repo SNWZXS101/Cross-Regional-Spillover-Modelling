@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "method": "DOP853 auxiliary integral",
+  "scope": "baseline and NN U01/U15/U30",
+  "comparison": "saved-grid composite trapezoid",
+  "baseline": {
+    "delayed_GD_GX": [
+      2251.487525045984,
+      2855.030180683384
+    ],
+    "reported_GD_GX": [
+      5020.42807245112,
+      5518.766821009976
+    ],
+    "fractions_GD_GX": [
+      0.44846524888997,
+      0.5173311852594076
+    ]
+  },
+  "results": [
+    {
+      "solution": "U01",
+      "dop_delayed": [
+        2296.870966168342,
+        1594.8734192081185
+      ],
+      "fine_grid_delayed": [
+        2296.871626341523,
+        1594.8743098525797
+      ],
+      "max_abs_error": 0.0008906444611511688
+    },
+    {
+      "solution": "U15",
+      "dop_delayed": [
+        2187.95738196591,
+        1917.1916767816488
+      ],
+      "fine_grid_delayed": [
+        2187.9574172519715,
+        1917.1916943159242
+      ],
+      "max_abs_error": 3.528606157487957e-05
+    },
+    {
+      "solution": "U30",
+      "dop_delayed": [
+        2134.068134229305,
+        2721.0483232056295
+      ],
+      "fine_grid_delayed": [
+        2134.068379028793,
+        2721.048687091558
+      ],
+      "max_abs_error": 0.0003638859284365026
+    }
+  ]
+}

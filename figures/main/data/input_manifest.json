@@ -1,0 +1,78 @@
+{
+  "mat_sha256": "d7822f0a61978f157176ef0b664807ac145701ec31cfa205134b8a6460d1311d",
+  "source_input_sha256": {
+    "baseline.npz": "53fd17ca6fcbdce52878c13a62faf3dcb4b12540f841b163b76a435a76dc0fb7",
+    "baseline_audit.json": "1c8dd668a45ade8cfc551db544b1b0b3d2a1bc7e5ba0ebd7d5f6d82c94e04371",
+    "baseline_config.json": "04841f09df1bdf45129f146ced3aedc4ff99f3190dcb5cb58e7f4817a8292c9d",
+    "display_choices.json": "70dcd093808c930bebad7cffab3c975fce7a68c980ccc6066b26a00d4d839111",
+    "distances_100.csv": "8e422da8d4c448ec3d4266c99471e5b927535dba5d7db58c7ba9edc4b8ce6a9f",
+    "effects_100.csv": "0e0308d0b98cd9ef7f2640e815fd10f2a73c8d2d8215e43559af941777504475",
+    "effects_30.csv": "53c9a0d38058f203a0e6eb73e13ebdbe9b13cab68870afa4795cad109593e230",
+    "effects_50.csv": "c1274859191fa3c52fc8b6a668a1a6b306108c1c3affa0aca6fc366614a3770d",
+    "effect_summary_100.csv": "604d8f80ef7c344b06c6a2cf34f50e039cae740792a490f7e39ea792a98aee66",
+    "effect_summary_30.csv": "4a08dc7826db89be04580c0bd57fb0e815d7d4cc32f69ab2248f82a813a15170",
+    "effect_summary_50.csv": "582d1cf9c9e4a60452719e1d91ed3d4ded8b735cb4e62c93958354989f70c4fb",
+    "ensemble_100_display.npz": "6ca37072a4fd27d1a78186c2770bb9b739ca2ad366ff4db7dd3cddf74d53625f",
+    "manifest_100.csv": "5b95fe408073866809e08a48aeb9293d23bae2b4766c23d545dde406d0eaad06",
+    "manifest_30.csv": "861cf803d781fc6820dcb119397890a9dd978ae4be416a49d0f7445eed308c41",
+    "manifest_50.csv": "02f03582928c740edfee4c0a98a074c7c5bcadddc8af87a475c70f6b38dce1cd",
+    "policy_summary_100.csv": "abd33fdb0fbab25103b1ced3c570e6205f65e2fb5bfc733e714cb066a5b8c6db",
+    "policy_summary_30.csv": "699eeb7fe822fc3d0496a4567434614a1507bc085b5bea58c800ab852fd1dc2c",
+    "policy_summary_50.csv": "cad269b32351d05e3619fbbd4fc4e68de1c704c327c3849dd0bce88def4a20bb",
+    "ranking_gd_reported.csv": "8c3e3087698ffdddf8f2bb0ffd536f8f778a8ff4609a0520cc8a6a979e81504f",
+    "ranking_gx_reported.csv": "f83873d2f4e0f4404ff4a2c0909e61dbe49526a1103948d2f717d4e6b830f4b7",
+    "ranking_total_reported.csv": "59812d57fbe3e039a4c72288c125c9565d14e2f4bb636bbaab0dfd567f45f9ef",
+    "risk_protocol.json": "2c64c26f585b09a199f7debaebd422fb6b0eda7da57c9e1f16411214fbf30a84",
+    "scenarios_100.csv": "f82a6016fe37935813eb1b582b03cb15cbdeecb2a565ca6c51a71be8e30a9fb3",
+    "scenarios_30.csv": "fef757c4861cec155360f7ed457640ffe8b4d28ad7540e1b4819027dc887380c",
+    "scenarios_50.csv": "02278d2f060374a332c2450eb136e05c7615f8c822dcf1469124770c4d9f0058",
+    "source_catalog.json": "8b14a5994280eb68c5851592505418222ddd69eb300724790dc4926b471713bc",
+    "training_summary.json": "e39f1038210a80281c6ff44e5e0572b4f2d0228d2e37d8676fac6f5fe625f35d",
+    "U01_trajectories.npz": "962a6b327c52963d8fdffbde269a1bd357c0a1198d13187a10f9cb8be942a9b4",
+    "U100_trajectories.npz": "5558bf95c906ee5bdf83f8e7b7233951a24dbb212f1fb93893e06f78885c7ace",
+    "U50_trajectories.npz": "492fe226935244c41bf9fdf563939c6113269a4aa477f4cf081ea9fe426b0a04"
+  },
+  "source_table_sha256": {
+    "Table1.csv": "68e702772030f98f668c2fbc9e4e87a36e6f0c17ad3ccb81c55cbc65203127c9",
+    "Table2.csv": "bf352e9ac649e9c4e2a83123b6bff5fc3e0bc52df6dc2217d6a29794cd878530"
+  },
+  "lossless_roundtrip_verified": true,
+  "ode_calls": 0,
+  "manuscript_contract": {
+    "schema_version": 1,
+    "manuscript_main_n": 100,
+    "manuscript_main_source": "analysis_runs/sensitivity_100",
+    "ensemble_size_sensitivity_sources": {
+      "30": "analysis_runs/main_30",
+      "50": "analysis_runs/sensitivity_50"
+    },
+    "baseline_source": "Model4GDGXcq2x_v6_optimized01/Training-results-26-09-12_003513-set1",
+    "saved_baseline_rollout_source": "analysis_runs/sensitivity_100/results/baseline_rollout.npz",
+    "risk_protocol_source": "uniform_30_solution_strategy_v2/methods/fixed_risk_protocol.json",
+    "ensemble_term": "diverse dynamically and observationally admissible solution ensemble constructed by a policy-blind maximin procedure",
+    "search_family": "fixed-baseline 30-dimensional deformation/inverse-reconstruction family",
+    "probability_sample": false,
+    "posterior_sample": false,
+    "main_representatives": [
+      "U01",
+      "U50",
+      "U100"
+    ],
+    "systematic_size_comparison_objects": [
+      "Fig5",
+      "Table2"
+    ],
+    "all_infections_diagnostic_flow": "beta * c_i * S_i * I_i / N_i",
+    "all_infections_attribution": "regional model incidence channel; not reassigned by final location of infected individuals",
+    "strategy_validation": {
+      "RK4_fine_coarse": "all nine strategies",
+      "independent_DOP853": [
+        "HH",
+        "LL"
+      ]
+    },
+    "member_validation": "saved independent RK4/DOP853 validation; current audit is algebraic and solver-free",
+    "rendering_policy": "read saved artifacts only; no training, search, ODE integration or strategy execution"
+  },
+  "metadata_revision": "2026-09-15: manuscript roles and equivalent baseline provenance only; MAT bytes unchanged"
+}

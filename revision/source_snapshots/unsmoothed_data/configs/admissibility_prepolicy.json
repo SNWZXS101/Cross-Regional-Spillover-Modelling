@@ -1,0 +1,24 @@
+{
+  "version": "2026-11-20-pre-outcome-v1",
+  "reference_only": "old baseline against raw data: R2 GD .816934 GX .835610; weekly WAPE GD .105313 GX .127953; final cumulative relative absolute error GD .028170 GX .027313",
+  "baseline_gate": {
+    "daily_R2_min_each_region": 0.8,
+    "weekly_WAPE_max_each_region": 0.2,
+    "absolute_cumulative_relative_error_max_each_region": 0.1,
+    "rationale": "Prespecified, conservative fit-quality gates informed by original baseline on raw data, both daily R2 above 0.816 and weekly WAPE below 0.128. Baseline must pass before candidate generation. These gates are not 0.98 and do not allow worsening a visibly underfit baseline."
+  },
+  "candidate_gate": {
+    "observation_loss_per_region_max_baseline_multiplier": 1.05,
+    "weekly_WAPE_per_region_max": "min(0.20, 1.05 * baseline_weekly_WAPE)",
+    "absolute_cumulative_relative_error_max": "min(0.10, max(0.01, 1.05 * baseline_absolute_relative_error))",
+    "daily_R2_min_each_region": 0.8,
+    "note": "Normalization and weights are as in selected training configuration. No regularization in observation loss. Fixed consecutive 7-day windows, last 5-day window separate."
+  },
+  "independent_numerical_gates": {
+    "state_min": 0.0,
+    "mass_error_max": 0.01,
+    "RK4_DOP853_cumulative_difference_max": 0.01,
+    "D_strictly_greater_than": 0.025
+  },
+  "locked_before_any_policy_computation": true
+}

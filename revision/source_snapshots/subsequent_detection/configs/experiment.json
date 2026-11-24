@@ -1,0 +1,22 @@
+{
+  "experiment": "O1",
+  "selected_candidate": 3,
+  "seed": 31415,
+  "delta_GD": 0.14285714285714285,
+  "delta_GX": 0.14285714285714285,
+  "fixed_delta_equals_gamma": true,
+  "n_solutions": 30,
+  "adaptive_start_rounds": [
+    3,
+    3,
+    6
+  ],
+  "max_iterations": 60,
+  "R2_strict_gt": 0.98,
+  "novelty_D_strict_gt": 0.025,
+  "policy_blind": true,
+  "baseline_config_path": "SOURCE_PROJECT/baseline/Model4GDGXcq2x_v6_optimized01/Training-results-26-09-12_003513-set1/config.json",
+  "baseline_config_sha256": "04841f09df1bdf45129f146ced3aedc4ff99f3190dcb5cb58e7f4817a8292c9d",
+  "data_path": "SOURCE_PROJECT/Data/input/Data_all_sm.xlsx",
+  "data_sha256": "1c1fd6336d755a267709104d90e87107a1e2fe0d329a50e0ce0402253ad96b72"
+}

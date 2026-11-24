@@ -1,0 +1,44 @@
+{
+  "mechanism_groups": [
+    "original_100",
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "M1",
+    "M2",
+    "O2"
+  ],
+  "policy_groups": [
+    "original_100",
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+  ],
+  "detection_group": "O1",
+  "representatives": [
+    "U01",
+    "U29"
+  ],
+  "reversal_members": [
+    "U18",
+    "U30",
+    "U33",
+    "U37",
+    "U84",
+    "U90"
+  ],
+  "maximum_input": "results/U01/fine_states_and_instantaneous_flows.csv",
+  "median_input": "results/U29/fine_states_and_instantaneous_flows.csv",
+  "input_paths": {
+    "mechanisms": "data/mechanisms.csv",
+    "policies": "data/policies.csv",
+    "raw": "../data/input/Data_all.xlsx",
+    "observation_fit": "data/observation_fit.npz",
+    "detection": "data/detection.json",
+    "peaks": "data/peaks.csv",
+    "maximum": "data/maximum.csv.gz",
+    "median": "data/median.csv.gz"
+  }
+}

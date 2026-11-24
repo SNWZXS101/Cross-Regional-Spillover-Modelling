@@ -1,0 +1,1 @@
+{"experiment":"O1 baseline retry","reason":"seed 31415 independent GD R2=0.9744476150596546 below 0.98; zero policy results observed","seed":27182,"changes_from_first_attempt":["initialization seed","isolated output directory"],"candidate":3,"screen_adam_iterations":600,"final_adam_iterations":1000,"lbfgs_max_iter":150,"strict_R2_per_region":0.98,"policy_blind":true}

@@ -1,0 +1,19 @@
+{
+  "experiment": "M1",
+  "initial_I_GD": 1,
+  "initial_I_GX": 1,
+  "initial_S_GD": "N1-1",
+  "initial_S_GX": "N2-5",
+  "seed": 31415,
+  "candidate": 3,
+  "screen_adam_iterations": 600,
+  "adam_iterations": 1000,
+  "lbfgs_max_iter": 150,
+  "n_solutions": 30,
+  "novelty_D_strict_gt": 0.025,
+  "fit_R2_strict_gt": 0.98,
+  "policy_selection_blind": true,
+  "data": "Data/input/Data_all_sm.xlsx",
+  "protocol": "uniform_30_solution_strategy_v2/methods/fixed_risk_protocol.json",
+  "allow_prior_checkpoint": false
+}

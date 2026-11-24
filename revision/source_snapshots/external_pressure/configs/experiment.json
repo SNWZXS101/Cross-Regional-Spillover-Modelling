@@ -1,0 +1,10 @@
+{
+  "seed": 31415,
+  "source_baseline_code_sha256": "2baa69581e0223d3a091480f32af2f076d9f9b8d10f917faedd210514dac9904",
+  "same_selected_configuration": 3,
+  "screen_updates": 601,
+  "final_updates": 1001,
+  "lbfgs_max_iter": 150,
+  "intervention_outcomes_used_for_selection": false,
+  "external_hazard_calibration": "configs/calibration.json"
+}

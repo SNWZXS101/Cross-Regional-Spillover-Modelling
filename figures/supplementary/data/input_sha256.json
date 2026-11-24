@@ -1,0 +1,14 @@
+{
+  "admissibility_100.csv": "c2cae42dc718eaddd59cf636c122610dea9ed1fe686222598ff8501b9a1975cb",
+  "admissibility_30.csv": "691326d4ff47978a5e572139ad6d2d264035432b138278f8f50483fbd12b16a0",
+  "admissibility_50.csv": "ac405804c9cc0f0961bb60de04f909de2a8e5bb714d2bde233bff0241b5c6738",
+  "pairwise_distances_100.csv": "0e220df43503fada1e9e8c5818281d06ea057060d7acfa051f9d157d322af5b8",
+  "pairwise_distances_30.csv": "e8102aa1ddb74e96512f826c11f3eb681e882fcc636a34ee1f69f4d6ca92fffc",
+  "pairwise_distances_50.csv": "7832930b0616be6ed9dffae28080652375cbf6559859de50ac0fd5b10281b8ee",
+  "scenarios_100_verified.csv": "18969812ff0bfc5a665c1ccf8efff1d329a9c0249c314bfbce7f7618d6f45afd",
+  "scenarios_30_verified.csv": "cc7b1ef7c97c086d1b0ce47ebc79a31002084c183cdc97efd41dafc5a614b87c",
+  "scenarios_50_verified.csv": "339daea0be4d9e7927baf2e5f0017c893f1490bbc54c348565f341bcfc1f3689",
+  "supplementary_data.mat": "689d6ffea366abfe2b8cc05158ab00867b53c366798cbc63f4ebe797edf4881e",
+  "TableS1_exact.csv": "8714100c34fe855bfb00396652f1e6a44dd121d88b3caa5a1cd2cd94e95fb285",
+  "TableS2_exact.csv": "837d311af8a770c0314c660e1c4381e5536be8dc7c3943d46de909cbb78ab0d1"
+}
