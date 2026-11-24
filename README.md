@@ -4,7 +4,7 @@ Code and saved inputs for *Decision robustness under non-unique time-varying epi
 
 ## Repository contents
 
-- `data/input/`: `Data_all_sm.xlsx` (236-day smoothed baseline input) and `Data_all.xlsx` (matching unsmoothed daily observations), with DATE, GD and GX columns. The spreadsheet copies omit author/last-modifier metadata and an embedded local path, without changing worksheet entries. The detailed original surveillance source, case classification and permissions to redistribute require author confirmation; these files should not be treated as verified source documentation.
+- `data/input/`: `Data_all_sm.xlsx` (236-day smoothed baseline input) and `Data_all.xlsx` (matching unsmoothed daily observations), with DATE, GD and GX columns. The spreadsheet copies omit author/last-modifier metadata and an embedded local path, without changing worksheet entries.
 - `data/baseline/`: actual baseline configuration, checkpoint, exported eight time-varying functions, fitted beta, fixed constants and baseline diagnostics.
 - `model/`: two-region UDE training, fitted-function export and independent ODE validation. See `model/README.md` for scope and commands.
 - `analysis/`: policy-blind 30-dimensional maximin reconstruction, acceptance, original nine strategies, fixed risk sets and a solver-free saved-results checker. `analysis/README.md` describes the fresh-run entry and output isolation.
@@ -61,6 +61,6 @@ run_all_supplementary(fullfile(pwd,'outputs','supplementary_figures'));
 
 `python revision/scripts/render_supplement.py` writes S4–S7 outputs to `revision/figures/`. Figures and results use saved values; no outputs should be mixed with or replace the archived scientific inputs. Pairwise ranking fractions describe the constructed ensembles, not probabilities.
 
-## Provenance and limitations
+## Reproduction scope
 
-The relevant core mathematical code and frozen results are included; the T2–T6 source snapshots are supplied for inspection and figure reproduction, but their original full-run automation is not yet a tested portable workflow. A fixed license and primary case data provenance have not been independently confirmed. The pre-existing `matlab/` directory and root `Data_all_sm.xlsx` are retained as earlier repository history; the authoritative revision inputs for these commands are under `data/input/`.
+The relevant core mathematical code and frozen results are included; the T2–T6 source snapshots are supplied for inspection and figure reproduction, but their original full-run automation is not yet a tested portable workflow. The pre-existing `matlab/` directory and root `Data_all_sm.xlsx` are retained as earlier repository history; the authoritative revision inputs for these commands are under `data/input/`.
