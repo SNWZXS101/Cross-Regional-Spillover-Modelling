@@ -64,3 +64,7 @@ run_all_supplementary(fullfile(pwd,'outputs','supplementary_figures'));
 ## Reproduction scope
 
 The relevant core mathematical code and frozen results are included; the T2–T6 source snapshots are supplied for inspection and figure reproduction, but their original full-run automation is not yet a tested portable workflow. The pre-existing `matlab/` directory and root `Data_all_sm.xlsx` are retained as earlier repository history; the authoritative revision inputs for these commands are under `data/input/`.
+
+## License
+
+The author-generated code in this repository is released under the MIT License. See the LICENSE file for details. This license applies to author-generated code, not third-party data or other third-party materials.
