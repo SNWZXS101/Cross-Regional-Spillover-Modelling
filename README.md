@@ -11,7 +11,7 @@ Code and saved inputs for *Decision robustness under non-unique time-varying epi
 - `results/`: saved 30/50/100 scenario tables, distance matrices, manifests and audit summaries; the primary 100 member NPZ/JSON files and saved daily strategy trajectories are included once. The 30/50 ensembles are nested in the 100-member set; the historic directory name `main_30` does not designate the paper's main analysis.
 - `figures/main/`: MATLAB scripts and a saved display snapshot for the main figures and tables. `diagram/` includes an editable Fig. 1 diagram. The scripts produce the original individual panels for Figs. 3–5; curated composite layout in the submitted manuscript is a separate presentation step.
 - `figures/supplementary/`: saved-data MATLAB rendering scripts and data for supplementary Figs. S1–S3 and the ensemble diagnostics and ranking tables. The standalone table names S1/S2 in these plotting scripts correspond to the ensemble tables numbered S3/S4 in the manuscript.
-- `revision/`: saved inputs and rendering code for the revised supplementary Figs. S4–S7, and research-source snapshots/configurations for sensitivity analyses. The historical T2–T6 full computational orchestration still depends on its original project layout and has not been validated as a standalone fresh run here. See `revision/README.md` for this important distinction.
+- `revision/`: saved inputs and rendering code for the revised supplementary Figs. S4–S7, and research-source snapshots/configurations for sensitivity analyses. See `revision/README.md` for the scope of the released sensitivity analyses.
 
 ## Environment
 
@@ -63,7 +63,7 @@ run_all_supplementary(fullfile(pwd,'outputs','supplementary_figures'));
 
 ## Reproduction scope
 
-The relevant core mathematical code and frozen results are included; the T2–T6 source snapshots are supplied for inspection and figure reproduction, but their original full-run automation is not yet a tested portable workflow. The pre-existing `matlab/` directory and root `Data_all_sm.xlsx` are retained as earlier repository history; the authoritative revision inputs for these commands are under `data/input/`.
+The sensitivity-analysis source code, configurations, and saved numerical results are provided. The supplementary figures can be reproduced directly from the saved results. Full reconstruction of the sensitivity ensembles requires the original computational workflow and has not been tested end to end using the released repository. The pre-existing `matlab/` directory and root `Data_all_sm.xlsx` are retained as earlier repository history; the authoritative revision inputs for these commands are under `data/input/`.
 
 ## License
 
